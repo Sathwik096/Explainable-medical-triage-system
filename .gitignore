@@ -1,0 +1,21 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Large Raw Data (GitHub blocks files > 100 MB)
+data/raw/*.csv
+data/raw/train.csv
+data/raw/release_train_patients.csv
+data/raw/test.csv
+data/raw/validate.csv
+
+# Python cache & Jupyter checkpoints
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
